@@ -1,6 +1,6 @@
-import "tailwindcss/tailwind.css";
-import "@/assets/styles/tailwind/index.css";
+// import "tailwindcss/tailwind.css";
+// import "@/assets/styles/tailwind/index.css";
 
-import "@/assets/styles/components/index.css";
+// import "@/assets/styles/components/index.css";
 
 export * from "./components";

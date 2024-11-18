@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
 import classNames from "classnames";
 import { CgSpinner } from "react-icons/cg";
-import type { CommonProps } from "@/@types/common";
+import type { CommonProps } from "../../@types/common";
 import type { ElementType } from "react";
 
 export interface SpinnerProps extends CommonProps {

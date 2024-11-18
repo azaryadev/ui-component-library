@@ -5,13 +5,13 @@ import {
   MouseEvent,
   ElementType,
 } from "react";
-import classNames from "@/utils/classNames";
-import { useConfig } from "@/utils/ConfigProvider";
+import classNames from "../../utils/classNames";
+import { useConfig } from "../../utils/ConfigProvider";
 import { useForm } from "../Form/context";
 import { useInputGroup } from "../InputGroup/context";
-import { CONTROL_SIZES, SIZES } from "@/utils/constants";
+import { CONTROL_SIZES, SIZES } from "../../utils/constants";
 import Spinner from "../Spinner";
-import type { CommonProps, TypeAttributes } from "@/@types/common";
+import type { CommonProps, TypeAttributes } from "../../@types/common";
 import type {} from "react";
 
 export interface ButtonProps

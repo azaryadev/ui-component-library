@@ -1,9 +1,9 @@
 import { FormContextProvider, FormContextConsumer } from "./context";
-import { useConfig } from "@/utils/ConfigProvider";
+import { useConfig } from "../../utils/ConfigProvider";
 import classNames from "classnames";
-import { SIZES, LAYOUT } from "@/utils/constants";
+import { SIZES, LAYOUT } from "../../utils/constants";
 import type { FormContextProps } from "./context";
-import type { CommonProps, TypeAttributes } from "@/@types/common";
+import type { CommonProps, TypeAttributes } from "../../@types/common";
 
 export interface FormContainerProps extends CommonProps {
   size?: TypeAttributes.ControlSize;

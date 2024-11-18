@@ -1,13 +1,13 @@
 import { forwardRef } from "react";
 import classNames from "classnames";
-import { useConfig } from "@/utils/ConfigProvider";
+import { useConfig } from "../../utils/ConfigProvider";
 import { useForm } from "../Form/context";
 import {
   InputGroupContextProvider,
   InputGroupContextConsumer,
 } from "./context";
 
-import type { CommonProps, TypeAttributes } from "@/@types/common";
+import type { CommonProps, TypeAttributes } from "../../@types/common";
 
 export interface InputGroupProps extends CommonProps {
   size?: TypeAttributes.ControlSize;

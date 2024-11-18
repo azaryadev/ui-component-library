@@ -1,10 +1,10 @@
 import { forwardRef } from "react";
-import classNames from "@/utils/classNames";
+import classNames from "../../utils/classNames";
 import { motion, AnimatePresence } from "framer-motion";
 import { useForm, FormItemContextProvider } from "./context";
-import { useConfig } from "@/utils/ConfigProvider";
-import { CONTROL_SIZES, LAYOUT } from "@/utils/constants";
-import type { CommonProps, TypeAttributes } from "@/@types/common";
+import { useConfig } from "../../utils/ConfigProvider";
+import { CONTROL_SIZES, LAYOUT } from "../../utils/constants";
+import type { CommonProps, TypeAttributes } from "../../@types/common";
 import type { ReactNode } from "react";
 
 export interface FormItemProps extends CommonProps {

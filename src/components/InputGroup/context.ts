@@ -1,5 +1,5 @@
 import { createContext, useContext } from "react";
-import type { TypeAttributes } from "@/@types/common";
+import type { TypeAttributes } from "../../@types/common";
 const InputGroupContext = createContext<{
   size?: TypeAttributes.ControlSize;
 } | null>(null);

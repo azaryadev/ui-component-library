@@ -1,11 +1,11 @@
 import { forwardRef, useState, useEffect, useRef } from "react";
 import classNames from "classnames";
-import { useConfig } from "@/utils/ConfigProvider";
+import { useConfig } from "../../utils/ConfigProvider";
 import { useForm, useFormItem } from "../Form/context";
 import { useInputGroup } from "../InputGroup/context";
-import { CONTROL_SIZES } from "@/utils/constants";
+import { CONTROL_SIZES } from "../../utils/constants";
 import isNil from "lodash/isNil";
-import type { CommonProps, TypeAttributes } from "@/@types/common";
+import type { CommonProps, TypeAttributes } from "../../@types/common";
 import type {
   InputHTMLAttributes,
   ElementType,
