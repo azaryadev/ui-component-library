@@ -1,0 +1,74 @@
+/* @import url("../src/assets/styles/components/index.css"); */
+@import url("../src/assets/styles/tailwind/index.css");
+
+@import url("../src/assets/styles/components/_button.css");
+@import url("../src/assets/styles/components/_alert.css");
+@import url("../src/assets/styles/components/_avatar.css");
+@import url("../src/assets/styles/components/_badge.css");
+@import url("../src/assets/styles/components/_date-picker.css");
+@import url("../src/assets/styles/components/_input.css");
+@import url("../src/assets/styles/components/_input-group.css");
+@import url("../src/assets/styles/components/_time-input.css");
+@import url("../src/assets/styles/components/_card.css");
+@import url("../src/assets/styles/components/_checkbox.css");
+@import url("../src/assets/styles/components/_close-button.css");
+@import url("../src/assets/styles/components/_dialog.css");
+@import url("../src/assets/styles/components/_drawer.css");
+@import url("../src/assets/styles/components/_dropdown.css");
+@import url("../src/assets/styles/components/_menu-item.css");
+@import url("../src/assets/styles/components/_menu.css");
+@import url("../src/assets/styles/components/_form.css");
+@import url("../src/assets/styles/components/_tooltip.css");
+/* @import url("../src/assets/styles/components/_notification.css"); */
+/* @import url("../src/assets/styles/components/_pagination.css"); */
+/* @import url("../src/assets/styles/components/_progress.css"); */
+/* @import url("../src/assets/styles/components/_radio.css"); */
+/* @import url("../src/assets/styles/components/_scrollbar.css"); */
+/* @import url("../src/assets/styles/components/_segment.css"); */
+/* @import url("../src/assets/styles/components/_select.css"); */
+/* @import url("../src/assets/styles/components/_skeleton.css"); */
+/* @import url("../src/assets/styles/components/_steps.css"); */
+/* @import url("../src/assets/styles/components/_switcher.css"); */
+/* @import url("../src/assets/styles/components/_tables.css"); */
+/* @import url("../src/assets/styles/components/_tabs.css"); */
+/* @import url("../src/assets/styles/components/_tag.css"); */
+/* @import url("../src/assets/styles/components/_timeline.css"); */
+/* @import url("../src/assets/styles/components/_toast.css"); */
+/* @import url("../src/assets/styles/components/_upload.css"); */
+
+/* Ensure proper code block display */
+.sbdocs-wrapper {
+  padding: 1rem;
+}
+
+.docblock-source {
+  margin: 1rem 0;
+}
+
+.docblock-source pre {
+  margin: 0;
+  padding: 1rem;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+/* Fix code display */
+.docs-story + div[class^="css-"] {
+  margin-top: 1rem;
+}
+
+/* Ensure source blocks show actual code */
+.docblock-source div[class^="css-"] {
+  white-space: pre-wrap;
+  font-family: monospace;
+}
+
+/* Override any interfering styles */
+.sbdocs-preview {
+  overflow: visible;
+}
+
+/* Ensure proper spacing in docs mode */
+.docs-story {
+  padding: 1rem;
+}
