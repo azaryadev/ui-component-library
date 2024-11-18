@@ -20,6 +20,7 @@ export default [
         sourcemap: true,
       },
     ],
+    external: ['react', 'react-dom'], // Prevent bundling React
     plugins: [
       resolve(),
       commonjs(),
