@@ -1,6 +1,6 @@
 {
   "name": "@azaryadev/ui-component-library",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Ui Component Library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
