@@ -31,7 +31,7 @@ const preview: Preview = {
         },
       ],
     },
-    layout: "centered",
+    layout: "fullscreen",
     docs: {
       toc: true,
       source: {
